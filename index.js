@@ -35,7 +35,7 @@ const metaHandler = async (req, reply) => {
 
 fastify.route({
     method: 'POST',
-    url: '/',
+    url: '/meta',
     handler: metaHandler,
 });
 
