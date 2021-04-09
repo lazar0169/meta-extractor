@@ -1,0 +1,37 @@
+{
+  "name": "meta-extractor",
+  "version": "1.0.0",
+  "description": "Simple metadata extractor using fastify and metascraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazar0169/meta-extractor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^3.14.1",
+    "fastify-cors": "^5.2.0",
+    "got": "^11.8.2",
+    "metascraper": "^5.21.5",
+    "metascraper-author": "^5.21.5",
+    "metascraper-clearbit": "^5.21.5",
+    "metascraper-date": "^5.21.5",
+    "metascraper-description": "^5.21.5",
+    "metascraper-image": "^5.21.5",
+    "metascraper-logo": "^5.21.5",
+    "metascraper-publisher": "^5.21.5",
+    "metascraper-title": "^5.21.5",
+    "metascraper-url": "^5.21.5",
+    "pino-pretty": "^4.7.1"
+  },
+  "bugs": {
+    "url": "https://github.com/lazar0169/meta-extractor/issues"
+  },
+  "homepage": "https://github.com/lazar0169/meta-extractor#readme"
+}
